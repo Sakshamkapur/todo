@@ -1,0 +1,83 @@
+.left-bar {
+    flex: 20;
+    background: #424242;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.tasks-container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.left-bar textarea {
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  color: #fff;
+}
+
+.left-bar input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.left-bar textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: none;
+}
+.left-bar [placeholder]{
+    font-size: 14px;
+}
+.left-bar [placeholder]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.left-bar [placeholder]:hover::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); 
+}
+
+.left-bar [placeholder]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.left-bar [placeholder]::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.left-bar [placeholder]:hover::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.left-bar [placeholder]:focus::-moz-placeholder {
+  color: transparent;
+}
+
+.left-bar [placeholder]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.left-bar [placeholder]:hover:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.left-bar [placeholder]:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.left-bar textarea {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 8px 12px 10px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.25);
+}
